@@ -1,0 +1,66 @@
+*{
+    font-family: Arial, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://img.freepik.com/premium-photo/technology-background_762678-1999.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin: 30px 100px;
+    margin-top: 50px;
+    padding: 30px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+h1 img{
+    height: 50px;
+}
+button{
+    margin: 20px 5px;
+    width: 15%;
+    background-color: rgb(108, 49, 247);
+    color: #fff;    
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 5px 15px rgba(0,0,0.3);
+}
+button img{
+    height: 30px;
+}
+button:active{
+    background-color: rgb(91, 43, 247)
+}
+.pages-container{
+    padding: 0 30px;
+}
+.page{ 
+    background-color: white;
+    margin: 30px 10px; 
+    height: 20vh;
+    border-radius: 10px; 
+    padding: 20px;
+    position: relative;
+    box-shadow: 2px 5px 15px rgba(0,0,0.3);
+}
+p img{
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
