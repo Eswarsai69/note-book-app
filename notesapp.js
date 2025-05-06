@@ -2,7 +2,8 @@ let createPageBtn=document.querySelector(".create-page-btn");
 let pageContainer=document.querySelector(".pages-container");
 
 
-createPageBtn.addEventListener("click",function(){
+createPageBtn.addEventListener("click",function(e){
+    e.preventDefault();
     let page=document.createElement("p");
     page.className="page";
     page.setAttribute("contenteditable","true");
